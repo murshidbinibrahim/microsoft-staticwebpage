@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #ffff;
+    color: #0000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+    color: #262626;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Nav Bar */
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px 0;
+    font-size: 13px;
+}
+
+.main-nav .logo{
+    width: 110px;
+}
+
+.main-nav ul{
+    display: flex;
+}
+
+.main-nav ul li{
+    padding: 0 10px;
+}
+
+.main-nav ul li a{
+    padding-bottom: 5px ;
+}
+
+.main-nav ul li a:hover{
+    border-bottom: 2px solid #262626;
+}
+
+.main-nav ul.main-menu{
+    flex: 1;
+    margin-left: 20px;
+}
+
+header{
+    color: #262626;
+}
+
+.newbtn{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 5px 10px;
+    background: rgb(235, 235, 235);
+    color: brown;
+    font-size: 15px;
+}
+
+.newbtn:hover{
+    opacity: 0.9;
+}
+
+.learnbtn{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: #ffff;
+    font-size: 15px;
+}
+
+.learnbtn:hover{
+    opacity: 0.9;
+}
+
+.showcase{
+    width: 100%;
+    height: 500px;
+    background: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-All-Colors-FY23HOL:VP4-1399x600') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.showcase h2, .showcase p{
+    margin-bottom: 20px;
+}
